@@ -1,0 +1,120 @@
+.menu{
+ 
+  background-color: rgb(53, 40, 59);
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 15px 0px;
+  text-align: center;
+  display: flex;
+}
+
+.flex{
+  display: flex;
+}
+
+.menu img{
+  margin-left: 100px;
+}
+
+.menu ul li{
+  list-style: none;
+  display: inline-flex;
+  margin-right: 60px;
+  padding-top: 30px;
+}
+
+
+.topMenu {
+  
+  height: 60px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(181, 206, 226);
+}
+
+.topMenuRight{
+  display:flex;
+  justify-content: space-evenly;
+  padding: 12px;
+}
+
+.search{
+  margin-top: 10px;
+  display: flex;
+  /* align-items: center;
+  justify-content: center; */
+  height: 30px;
+  width: 225px;
+  
+}
+
+.logo {
+display: inline;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: rgb(33, 33, 96);
+}
+
+.mainBody {
+  height : 150vh;
+  background-color : rgb(241, 201, 244);
+  
+  justify-content: space-evenly;
+  
+
+ 
+}
+
+
+.product {
+  margin-top: 5px;
+  height: 200px;
+  width: 200px;
+  /* display: flex;
+  align-items: end; */
+  border-style: solid;
+  border-color: rgb(34, 31, 99);
+  border-radius: 3%;
+  display: flex;
+  flex-direction: column;
+  align-items: center ;
+
+  
+}
+
+.discount {
+  width: 225px;
+  background-color: rgb(215, 45, 125);
+  display: flex;
+  flex-direction: column;
+  align-items: center ;
+}
+
+.productPic {
+margin-top: 5px;
+height: 100px;
+width: 150px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.sales {
+  width: 225px;
+  background-color: rgb(229, 220, 209);
+  display: flex;
+  flex-direction: column;
+  align-items: center ;
+}
+
+.sales h4 {
+  padding-bottom: 35px;
+}
+
+.alignItem {
+  display: flex;
+  justify-content: space-around;
+ 
+ 
+}
